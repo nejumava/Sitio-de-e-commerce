@@ -60,9 +60,9 @@
   </nav>
   <!-- /.navbar -->
   <div class="container">
-    <div class="row row-offcanvas row-offcanvas-right">
-      <div class="col-xs-3 sidebar-offcanvas" id="sidebar">
-        <div class="input-group">
+    <div class="row">
+	<div class="col-md-3">
+	<div class="input-group">
           <input type="text" class="form-control " placeholder="Buscar camisetas">
           <span class="input-group-btn">
             <button class="btn btn-default " type="button">
@@ -70,7 +70,9 @@
             </button>
           </span>
         </div>
-        <div class="list-group">
+	
+      <div class="visible-md visible-lg" id="sidebar">
+            <div class="list-group">
           <h4>
             <strong>
               Categorías
@@ -132,8 +134,10 @@
           </a>
         </div>
       </div>
+	  </div>
+	  <br>
       <!--/.sidebar-offcanvas-->
-      <div class="col-xs-12 col-sm-9">
+      <div class="col-md-9">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
@@ -276,11 +280,11 @@
             <!-- Tab panes -->
             <div class="tab-content">
               <div role="tabpanel" class="tab-pane active" id="descripcion">
-                <p>Lorem ipsum dolor sit amet, consectetur
+                Lorem ipsum dolor sit amet, consectetur
                   adipiscing elit. Praesent vel accumsan elit, quis venenatis augue. Orci varius natoque penatibus et
                   magnis dis parturient montes, nascetur ridiculus mus. Morbi condimentum efficitur nisl a
                   pellentesque.
-                  In non laoreet neque, sed sagittis massa.</p>
+                  In non laoreet neque, sed sagittis massa.
               </div>
               <div role="tabpanel" class="tab-pane" id="comentarios">
                 <div class="panel panel-default">
